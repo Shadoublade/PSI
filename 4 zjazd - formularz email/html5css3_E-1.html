@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<head>
+
+<header>
+  <title>Formularz E-mail</title>
+</header>
+
+
+<link rel="stylesheet" type="text/css" href="html5css3_E-1.css">
+
+</head>
+
+<body>
+
+Formularz do wysy³ania<br />
+
+<form method="post" action="#">
+  <fieldset style="border: 5px ridge green; border-left-width: 40px; border-left-color: lightgreen;" id="personal_information">
+     <legend style="font-family: Verdana; font-size: 0.75em; color: blue;">Okno formularza</legend>
+     <ol>
+       <li>
+         <label for="email">E-mail odbiorcy:</label>
+         <input type="email" name="email" id="email" placeholder="imie.nazwisko@firma.pl"><br/>
+		 
+		 <label for="email">Opcjonalnie DW:</label>
+         <input type="email" name="email" id="email" placeholder="imie.nazwisko@firma.pl"><br/>
+		 
+		 <label for="name">Nadawca:</label>
+         <input style="color: red; background: pink;" type="name" name="name" autofocus id="name" placeholder="Imiê i Nazwisko"><br/>
+
+         <label for="text">Treœæ:</label><br/>
+		 <textarea cols="100" rows="10">
+		 </textarea><br/>
+		 
+       </li>
+       <li>
+         <input style="width: 205px" type="submit" class="button" value="Wyœlij">
+       </li>
+     </ol>
+   </fieldset>
+  
+</form>
+
+</body>
